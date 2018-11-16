@@ -47,15 +47,12 @@
   font-weight: bold;
 }
 
-.container{
-  border: 1px solid black;
-}
-
 .l-days{
   font-family: 'Hipster';
-  border: 1px solid red;
 }
 
-.l-article{
-  border: 1px solid green;
+/* Cards */
+.card-pic{
+  width:100%;
+  border-radius:5px;
 }
