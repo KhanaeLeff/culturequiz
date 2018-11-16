@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+footer {
+  background-color: #3A3A3A;
+  color: white;
+  font-family: 'Hipster';
+  text-align: center;
+}
+
+.footer-text{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.footer-rezo-container{
+  vertical-align: middle;
+}
+
+.footer-logo-rezo {
+  height: 55%;
+  margin: 0 3% 0 3%;
+}
+
+.footer-end{
+  margin-top: -2%;
+  padding-bottom: 1%;
+}

@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'Abbasy';
-  src: url('/AbbasyCalligraphyTypeface.ttf') format('true-type');
+  src: url('AbbasyCalligraphyTypeface.ttf');
 }
 @font-face{
   font-family: 'Hipster';
@@ -82,6 +82,7 @@ h4{
   background-color: #fe9b23;
   text-align: center;
   margin-bottom:-3%;
+  font-family: 'Abbasy';
 }
 
 .game-text{
