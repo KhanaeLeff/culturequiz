@@ -53,6 +53,11 @@
 
 /* Cards */
 .card-pic{
-  width:100%;
+  width:90%;
+  height: 60%;
   border-radius:5px;
+}
+
+.game-title{
+
 }
