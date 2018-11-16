@@ -41,16 +41,25 @@
   text-align: center;
 }
 
-.navbarcustom{
-  background-color: #fe9b23;
-  opacity: 0.70;
-  text-align: center;
+/* NavBar */
+.nav {
+  background-color:#fe9b23;
 }
 
-.nav-link{
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
   font-family: 'Hipster';
-  font-size: 23px;
+  font-size: 1.3em;
   font-weight: bold;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .days{
