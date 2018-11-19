@@ -18,14 +18,25 @@
   padding-top: 5%;
 }
 
+.img-responsive{
+ margin: 0 auto;
+}
+.center-block{
+  margin: auto;
+}
+
 .banniere{
   padding-top: 3%;
   height: 60%;
   width: 80%;
+  justify-content: center;
 }
 
 .slogan{
   margin-top: 3%;
+  font-family: 'Abbasy', 'Hipster', serif;
+  font-size: 30px;
+  text-align: center;
 }
 
 .logo-rezo{
