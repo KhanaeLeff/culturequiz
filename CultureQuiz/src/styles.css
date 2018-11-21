@@ -1,4 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
+/* Header */
+@font-face{
+  font-family: 'Abbasy';
+  src: url('./app/fonts/AbbasyCalligraphyTypeface.ttf');
+}
+@font-face{
+  font-family: 'Hipster';
+  src: url('./app/fonts/HipsterishFontNormal.ttf');
+}
+/* INDEX */
+.index-top{
+  background-color: #3A3A3A;
+  color: white;
+
+}
+.logocq{
+  width:70%;
+  padding-bottom: 8%;
+  padding-top: 5%;
+}
+
+.img-responsive{
+ margin: 0 auto;
+}
+.center-block{
+  margin: auto;
+}
+
+.banniere{
+  padding-top: 3%;
+  height: 60%;
+  width: 80%;
+  justify-content: center;
+}
+
+.slogan{
+  margin-top: 3%;
+  font-family: 'Hipster', serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.logo-rezo{
+  width: 25%;
+  margin-left: 3%;
+  margin-right: 0;
+  padding-top: 2%;
+}
+/* Souci avec la police Abbasy */
+ .title{
+  font-family: 'Abbasy', 'Hipster', serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+/* NavBar */
+.nav {
+  background-color:#fe9b23;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+  font-family: 'Hipster';
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+/* Footer */
 footer {
   background-color: #3A3A3A;
   color: white;

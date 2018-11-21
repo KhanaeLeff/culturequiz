@@ -1,0 +1,40 @@
+.days{
+  border-top: 3px solid #fe9b23;
+  border-bottom: 3px solid #fe9b23;
+  margin-top: 15px;
+  font-variant: small-caps;
+  font-size: 40px;
+}
+.l-days{
+  font-family: 'Hipster';
+  font-size: 20px;
+  text-align: center;
+}
+
+h4{
+  font-size: 28px;
+}
+
+/* Cards */
+.game-pic{
+  width: 80%;
+  height: 60%;
+  border-radius:5px;
+}
+
+.game-title{
+  font-size: 20px;
+  background-color: #fe9b23;
+  text-align: center;
+  margin-bottom:-3%;
+  font-family: 'Abbasy';
+}
+
+.game-text{
+  font-weight: bold;
+  font-size: 25px;
+}
+/* Footer */
+.footer-color{
+  background-color: #3A3A3A;
+}

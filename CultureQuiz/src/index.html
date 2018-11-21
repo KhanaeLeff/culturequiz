@@ -9,8 +9,36 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+<header>
+  <div class="container-fluid index-top">
+    <div class="row">
+      <div class="col-2">
+        <img src="assets/logo_sans_titre.png" alt="LOGO" class="logocq">
+      </div>
+      <div class="col-8 title">
+        <img src="assets/titre_avec_bordure.png" alt="Culture Quiz" class="banniere"/>
+        <h3 class="slogan">A la recherche du meilleur Quiz / Blind-test</h3>
+      </div>
+      <div class="col-2">
+        <a href="https://www.facebook.com/CultureQuiz/"> <img src="assets/facebook_bleu.png" alt="F" class="logo-rezo" /></a>
+        <a href="https://twitter.com/OZythoTeam"> <img src="assets/twitter_bleu.png" alt="T" class="logo-rezo"/></a>
+        <a href="https://www.instagram.com/culture.quiz/"> <img src="assets/instagram_rose.png" alt="I" class="logo-rezo"/></a>
+      </div>
+    </div>
+  </div>
+  <!--NavBar-->
+  <div>
+    <ul class="nav">
+      <li><a href="/">Quiz & Blind-test</a></li>
+      <li><a href="#">Evenements Spéciaux</a></li>
+      <li><a href="#">Qui sommes-nous ?</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
 <body>
   <app-root></app-root>
+  <router-outlet></router-outlet>
 </body>
 
 <footer>
